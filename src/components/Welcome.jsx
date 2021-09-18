@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import photo from '../images/photo.png';
+import face from '../images/face.png';
 import frame from '../images/frame.png';
 import group from '../images/group.png';
 import rectangle1 from '../images/rectangle1.png';
@@ -26,7 +26,7 @@ function Welcome() {
         </Link>
       </div>
       <div className="welcome-right">
-        <img className="welcome-right__photo" src={photo} alt="photo" />
+        <img className="welcome-right__face" src={face} alt="face" />
         <img className="welcome-right__frame" src={frame} alt="frame" />
         <img className="welcome-right__group" src={group} alt="group" />
         <img
